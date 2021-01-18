@@ -6,10 +6,10 @@ encoding utf-8
 Sheet 1 1
 Title "Glasgow PROM Interface Addon"
 Date ""
-Rev ""
+Rev "V1.0a"
 Comp "1BitSquared"
-Comment1 "(C) 2020 Piotr Esden-Tempski <piotr@esden.net>"
-Comment2 "(C) 2020 1BitSquared <info@1bitsquared.com>"
+Comment1 "(C) 2020-2021 Piotr Esden-Tempski <piotr@esden.net>"
+Comment2 "(C) 2020-2021 1BitSquared <info@1bitsquared.com>"
 Comment3 "License: CC-BY-SA 4.0"
 Comment4 ""
 $EndDescr
@@ -549,7 +549,7 @@ L Device:R_Pack04 RN1
 U 1 1 5F57774C
 P 6550 1900
 F 0 "RN1" V 6250 1800 50  0000 C CNN
-F 1 "100R" V 6250 2000 50  0000 C CNN
+F 1 "33R" V 6250 2000 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6825 1900 50  0001 C CNN
 F 3 "~" H 6550 1900 50  0001 C CNN
 	1    6550 1900
@@ -560,7 +560,7 @@ L Device:R_Pack04 RN2
 U 1 1 5F581391
 P 6550 2300
 F 0 "RN2" V 6750 2200 50  0000 C CNN
-F 1 "100R" V 6750 2400 50  0000 C CNN
+F 1 "33R" V 6750 2400 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6825 2300 50  0001 C CNN
 F 3 "~" H 6550 2300 50  0001 C CNN
 	1    6550 2300
@@ -587,7 +587,7 @@ L Device:R_Pack04 RN3
 U 1 1 5F5B0FC8
 P 6250 4300
 F 0 "RN3" V 5950 4200 50  0000 C CNN
-F 1 "100R" V 5950 4400 50  0000 C CNN
+F 1 "33R" V 5950 4400 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6525 4300 50  0001 C CNN
 F 3 "~" H 6250 4300 50  0001 C CNN
 	1    6250 4300
