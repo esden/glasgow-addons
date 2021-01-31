@@ -380,7 +380,7 @@ AR Path="/60031072" Ref="J1"  Part="1"
 AR Path="/5C7B59B0/60031072" Ref="J?"  Part="1" 
 F 0 "J1" H 6350 5667 50  0000 C CNN
 F 1 "PinHeader_2x22_P1.27mm" H 6350 5576 50  0000 C CNN
-F 2 "pkl_pin_headers:PinHeader_2x22_P1.27mm_Vertical_Pass-Through__SMD" H 6300 4450 50  0001 C CNN
+F 2 "pkl_pin_sockets:PinSocket_2x22_P1.27mm_Vertical_Pass-Through__SMD" H 6300 4450 50  0001 C CNN
 F 3 "~" H 6300 4450 50  0001 C CNN
 F 4 "conn-smd-005in-22-2-hdr" H 6300 4450 50  0001 C CNN "1b2-bom-key"
 F 5 "FTS-122-01-L-DV" H 6300 4450 50  0001 C CNN "MPN"
