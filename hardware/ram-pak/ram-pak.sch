@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Label 6100 3650 2    50   ~ 0
-Z11_P
+CK0x_P
 Wire Wire Line
 	6100 3450 6000 3450
 $Comp
@@ -103,55 +103,11 @@ Wire Wire Line
 Text Label 7050 5550 2    50   ~ 0
 VIO_AUX
 Text Label 6600 3750 0    50   ~ 0
-Z12_P
-Text Label 6600 3850 0    50   ~ 0
-Z12_N
-Text Label 6600 4050 0    50   ~ 0
-Z9_N
-Text Label 6600 4150 0    50   ~ 0
-Z9_P
-Text Label 6600 4350 0    50   ~ 0
-Z7_N
-Text Label 6600 4450 0    50   ~ 0
-Z7_P
-Text Label 6600 4650 0    50   ~ 0
-Z5_N
-Text Label 6600 4750 0    50   ~ 0
-Z5_P
-Text Label 6600 4950 0    50   ~ 0
-Z4_P
-Text Label 6600 5050 0    50   ~ 0
-Z4_N
-Text Label 6600 5250 0    50   ~ 0
-Z1_N
-Text Label 6600 5350 0    50   ~ 0
-Z1_P
-Text Label 6100 5450 2    50   ~ 0
-Z0_N
-Text Label 6100 5350 2    50   ~ 0
-Z0_P
-Text Label 6100 5150 2    50   ~ 0
-Z2_P
-Text Label 6100 5050 2    50   ~ 0
-Z2_N
-Text Label 6100 4850 2    50   ~ 0
-Z3_N
-Text Label 6100 4750 2    50   ~ 0
-Z3_P
-Text Label 6100 4550 2    50   ~ 0
-Z6_N
-Text Label 6100 4450 2    50   ~ 0
-Z6_P
-Text Label 6100 4250 2    50   ~ 0
-Z8_N
-Text Label 6100 4150 2    50   ~ 0
-Z8_P
-Text Label 6100 3950 2    50   ~ 0
-Z10_N
+~CS0x
 Text Label 6100 3850 2    50   ~ 0
-Z10_P
+DQ2x
 Text Label 6100 3550 2    50   ~ 0
-Z11_N
+CK0x_N
 Wire Wire Line
 	6600 3650 6700 3650
 Wire Wire Line
@@ -180,8 +136,6 @@ Wire Wire Line
 	7050 4150 6600 4150
 Wire Wire Line
 	6600 4050 7050 4050
-Wire Wire Line
-	7050 3850 6600 3850
 Wire Wire Line
 	6600 3750 7050 3750
 $Sheet
@@ -233,8 +187,6 @@ Text Label 7350 4150 0    50   ~ 0
 DQ0
 Text Label 7350 4050 0    50   ~ 0
 DQ4
-Text Label 5300 4250 2    50   ~ 0
-DQ5
 Text Label 7350 4350 0    50   ~ 0
 DQ6
 Text Label 7350 4450 0    50   ~ 0
@@ -246,9 +198,9 @@ Text Label 4450 4050 0    50   ~ 0
 Text Label 4450 4150 0    50   ~ 0
 ~CS0
 Text Label 4450 4250 0    50   ~ 0
-CK0
+CK0_P
 Text Label 4450 4350 0    50   ~ 0
-~CK0
+CK0_N
 $Sheet
 S 3600 4700 750  1400
 U 60051CB7
@@ -317,9 +269,9 @@ Text Label 4450 5700 0    50   ~ 0
 Text Label 4450 5800 0    50   ~ 0
 ~CS1
 Text Label 4450 5900 0    50   ~ 0
-CK1
+CK1_P
 Text Label 4450 6000 0    50   ~ 0
-~CK1
+CK1_N
 Wire Notes Line
 	7750 2650 5200 2650
 Wire Notes Line
@@ -472,17 +424,17 @@ Text Label 5600 4450 2    50   ~ 0
 Text Label 7350 3750 0    50   ~ 0
 ~CS0
 Text Label 5300 3650 2    50   ~ 0
-CK0
+CK0_P
 Text Label 5300 3550 2    50   ~ 0
-~CK0
+CK0_N
 Text Label 5300 4850 2    50   ~ 0
 RWDS1
 Text Label 5300 4750 2    50   ~ 0
 ~CS1
 Text Label 7350 4750 0    50   ~ 0
-CK1
+CK1_P
 Text Label 7350 4650 0    50   ~ 0
-~CK1
+CK1_N
 Text Label 5600 4550 2    50   ~ 0
 ~RESET1
 Text Label 4450 3150 0    50   ~ 0
@@ -1042,8 +994,54 @@ Wire Notes Line
 	4950 6250 4950 2750
 Text Notes 6050 2900 0    79   ~ 0
 Glasgow LVDS
-Wire Notes Line
-	5400 2850 5400 2900
 Text Notes 3900 2900 0    79   ~ 0
 Hyperram
+Text Notes 8450 3450 0    50   ~ 0
+LENGTH MATCHING:\nid: hyperram0\nnetnames: "/(CK0.*|RWDS0|DQ[0-7])x?$"\nmerge: "/([^x]*)(?:x)?((?:_[NP])?)$"\ntolerance: 3.0 mm\nvialength: 0.5 mm
+Text Notes 8450 4050 0    50   ~ 0
+LENGTH MATCHING:\nid: hyperram1\nnetnames: "/(CK1.*|RWDS1|DQ[8-9]|DQ1[0-5])x?$"\nmerge: "/([^x]*)(?:x)?((?:_[NP])?)$"\ntolerance: 3.0 mm\nvialength: 0.5 mm
+Wire Wire Line
+	7050 3850 6600 3850
+Text Label 6100 3950 2    50   ~ 0
+DQ3x
+Text Label 6600 3850 0    50   ~ 0
+RWDS0x
+Text Label 6600 4050 0    50   ~ 0
+DQ4x
+Text Label 6600 4150 0    50   ~ 0
+DQ0x
+Text Label 6600 4350 0    50   ~ 0
+DQ6x
+Text Label 6600 4450 0    50   ~ 0
+DQ7x
+Text Label 6600 4650 0    50   ~ 0
+CK1x_N
+Text Label 6600 4750 0    50   ~ 0
+CK1x_P
+Text Label 6600 4950 0    50   ~ 0
+DQ10x
+Text Label 6600 5050 0    50   ~ 0
+DQ11x
+Text Label 6600 5250 0    50   ~ 0
+DQ9x
+Text Label 6600 5350 0    50   ~ 0
+DQ13x
+Text Label 6100 5350 2    50   ~ 0
+DQ14x
+Text Label 6100 5450 2    50   ~ 0
+DQ15x
+Text Label 6100 5150 2    50   ~ 0
+DQ8x
+Text Label 6100 5050 2    50   ~ 0
+DQ12x
+Text Label 6100 4850 2    50   ~ 0
+RWDS1x
+Text Label 6100 4750 2    50   ~ 0
+~CS1x
+Text Label 6100 4150 2    50   ~ 0
+DQ1x
+Text Label 5300 4250 2    50   ~ 0
+DQ5
+Text Label 6100 4250 2    50   ~ 0
+DQ5x
 $EndSCHEMATC
