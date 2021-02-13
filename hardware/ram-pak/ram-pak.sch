@@ -4,13 +4,13 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title ""
+Title "Glasgow Ram-Pak"
 Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
+Rev "V0.1a"
+Comp "1BitSquared"
+Comment1 "(C) 2021 1BitSquared"
+Comment2 "(C) 2021 Piotr Esden-Tempski"
+Comment3 "License: CC-BY-SA 4.0"
 Comment4 ""
 $EndDescr
 Text Label 6100 3650 2    50   ~ 0
