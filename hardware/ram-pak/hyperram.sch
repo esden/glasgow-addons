@@ -26,10 +26,11 @@ AR Path="/60051C8E/5E0FA7AE" Ref="U?"  Part="1"
 AR Path="/60051CB7/5E0FA7AE" Ref="U3"  Part="1" 
 AR Path="/60051CE0/5E0FA7AE" Ref="U?"  Part="1" 
 F 0 "U3" H 5600 3680 50  0000 C CNN
-F 1 "S70KL1281" H 5600 3587 50  0000 C CNN
+F 1 "W957D8MFYA5I" H 5600 3587 50  0000 C CNN
 F 2 "pkl_housings_bga:BGA-24_5x5_6.0x8.0mm" H 6200 1850 50  0001 C CNN
-F 3 "http://www.cypress.com/file/183506/download" H 5600 1850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/949/W957x8MFYA_128Mb_HyperRAM_TFBGA24_DDP_datasheet_A0-1928530.pdf" H 5600 1850 50  0001 C CNN
 F 4 "ANY" H 5600 2750 50  0001 C CNN "Source"
+F 5 "ram-24vbga-w957d8mfya5i" H 5600 2750 50  0001 C CNN "1b2-bom-key"
 	1    5600 2750
 	1    0    0    -1  
 $EndComp
@@ -128,6 +129,7 @@ F 1 "100n" H 5342 4004 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 5342 3957 60  0001 L CNN
 F 3 "" H 5250 4050 60  0000 C CNN
 F 4 "ANY" H 5250 4050 50  0001 C CNN "Source"
+F 5 "cap-cer-0402-100n" H 5250 4050 50  0001 C CNN "1b2-bom-key"
 	1    5250 4050
 	1    0    0    -1  
 $EndComp
@@ -148,6 +150,7 @@ F 1 "100n" H 5642 4004 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 5550 4050 60  0001 C CNN
 F 3 "" H 5550 4050 60  0000 C CNN
 F 4 "ANY" H 5550 4050 50  0001 C CNN "Source"
+F 5 "cap-cer-0402-100n" H 5550 4050 50  0001 C CNN "1b2-bom-key"
 	1    5550 4050
 	1    0    0    -1  
 $EndComp
@@ -168,6 +171,7 @@ F 1 "100n" H 5942 4004 50  0000 L CNN
 F 2 "pkl_dipol:C_0402" H 5850 4050 60  0001 C CNN
 F 3 "" H 5850 4050 60  0000 C CNN
 F 4 "ANY" H 5850 4050 50  0001 C CNN "Source"
+F 5 "cap-cer-0402-100n" H 5850 4050 50  0001 C CNN "1b2-bom-key"
 	1    5850 4050
 	1    0    0    -1  
 $EndComp
