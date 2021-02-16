@@ -279,10 +279,10 @@
     (tags "jumper 0603")
     (path /602E83F4)
     (attr virtual)
-    (fp_text reference J2 (at 0 1.1 90) (layer B.Fab)
+    (fp_text reference J2 (at 0 0 90) (layer B.Fab)
       (effects (font (size 0.635 0.635) (thickness 0.1)) (justify mirror))
     )
-    (fp_text value pkl_jumper (at 0 -1.2 90) (layer B.Fab)
+    (fp_text value pkl_jumper (at -4 0 90) (layer B.Fab) hide
       (effects (font (size 0.635 0.635) (thickness 0.1)) (justify mirror))
     )
     (fp_poly (pts (xy -0.05 0.25) (xy 0.05 0.25) (xy 0.05 -0.25) (xy -0.05 -0.25)) (layer B.Mask) (width 0.15))
