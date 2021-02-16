@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 3
 Title "Glasgow Ram-Pak"
 Date ""
-Rev "V0.1a"
+Rev "V0.1b"
 Comp "1BitSquared"
 Comment1 "(C) 2021 1BitSquared"
 Comment2 "(C) 2021 Piotr Esden-Tempski"
@@ -1073,4 +1073,38 @@ Text Label 5300 4250 2    50   ~ 0
 DQ5
 Text Label 6100 4250 2    50   ~ 0
 DQ5x
+$Comp
+L pkl_misc:pkl_jumper J?
+U 1 1 602E83F4
+P 6050 2500
+F 0 "J?" H 6050 2600 60  0000 C CNN
+F 1 "pkl_jumper" H 6050 2641 60  0001 C CNN
+F 2 "pkl_jumpers:J_0603" H 6050 2500 60  0001 C CNN
+F 3 "" H 6050 2500 60  0001 C CNN
+	1    6050 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 602E9589
+P 5950 2500
+F 0 "#PWR?" H 5950 2350 50  0001 C CNN
+F 1 "+3V3" H 5950 2640 50  0000 C CNN
+F 2 "" H 5950 2500 60  0000 C CNN
+F 3 "" H 5950 2500 60  0000 C CNN
+F 4 "ANY" H 5950 2500 50  0001 C CNN "Source"
+	1    5950 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+1V8 #PWR?
+U 1 1 602EA3A9
+P 6150 2500
+F 0 "#PWR?" H 6150 2350 50  0001 C CNN
+F 1 "+1V8" H 6165 2673 50  0000 C CNN
+F 2 "" H 6150 2500 50  0001 C CNN
+F 3 "" H 6150 2500 50  0001 C CNN
+	1    6150 2500
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
