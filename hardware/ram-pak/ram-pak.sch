@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 3
 Title "Glasgow Ram-Pak"
 Date ""
-Rev "V0.1b"
+Rev "V0.1c"
 Comp "1BitSquared"
 Comment1 "(C) 2021 1BitSquared"
 Comment2 "(C) 2021 Piotr Esden-Tempski"
